@@ -1,0 +1,19 @@
+{
+  "name": "exosjs",
+  "version": "1.0.0",
+  "description": "Simple js exercises",
+  "main": "exo1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hugonin/simpleJS-algo-exercices.git"
+  },
+  "author": "hugonin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hugonin/simpleJS-algo-exercices/issues"
+  },
+  "homepage": "https://github.com/hugonin/simpleJS-algo-exercices#readme"
+}
