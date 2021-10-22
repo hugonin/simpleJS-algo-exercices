@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap');
+
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  color: #333;
+  font-weight: 300;
+  line-height: 1.6; 
+}
+
+section {
+    padding: 5em 2em;
+}
+
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+/**************************************************/
+/* Menu */
+/**************************************************/
+.wrapper {
+    padding: 1em;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+a.logo {
+    color:#C500FF;
+    font-weight: bold;
+    font-size: 1.2em;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    display: flex;
+    margin-top: 1em;
+}
+
+nav li {
+
+    margin-right: .5em;
+}
+
+nav li a {
+    color: black;
+    font-weight: bold;
+    padding: .3em .7em;
+    background-color: #E6E6E6;
+    border-radius: 1em;
+}
+
+/**************************************************/
+/* Galerie Images */
+/**************************************************/
+
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(195px, 1fr));
+}
+
+.gallery__item {
+    overflow: hidden
+}
+
+.gallery__img {
+    transition: 
+    transform 750ms cubic-bezier(.5, 0, .5, 1),
+    opacity 250ms linear;
+}
+
+.gallery__img:hover,
+.gallery__item:focus .gallery__img {
+    transform: scale(1.2);
+    opacity: .5;
+
+}
+
+/**************************************************/
+/* Calculatrice */
+/**************************************************/
+
+
+
+.display {
+    background-color: #E6E6E6;
+    padding: 15px;
+    width: 250px;
+    text-align: right;
+    font-size: 20px;
+    border-radius:10px;
+    
+}
+
+button {
+    padding: 10px;
+    width: 67px;
+    height: 45px;
+    margin-top: 10px;
+    background-color: #E6E6E6;
+    color: #C500FF;
+    font-size: 20px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(182, 178, 178);
+   }
+button:active {
+    background-color: rgb(136, 136, 136);
+   }

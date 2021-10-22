@@ -18,41 +18,33 @@
         <nav>
             <ul>
                 <li><a href="#">home</a></li>
-                <li><a href="#">images</a></li>
-                <li><a href="#">calculatrice</a></li>
+                <li><a href="#gallery">images</a></li>
+                <li><a href="#calculatrice">calculatrice</a></li>
             </ul>
         </nav>
     </header>
 
 
-    <section class="row">
-        <h1 class="heading">Mes Images</h1>
-        <div class="carousel">
-            <div class="carousel-item carousel-item-visible">
-                <img src="images/gumball.png" alt="">
-            </div>
-            <div class="carousel-item">
-                <img src="images/hand2.png" alt="">   
-            </div>
-            <div class="carousel-item">
-                <img src="images/milk.png" alt=""> 
-            </div>
-            <div class="carousel-item">
-                <img src="images/sprinkles.png" alt=""> 
-            </div>
-    
-            <div class="carousel-actions">
-                <button id="carousel-button-prev" aria-label="Previous slide"> < </button>
-                <button id="carousel-button-next" aria-label="Next slide"> > </button>
-            </div>
-    
+    <section class="gallery" id="gallery">
+        <h2 class="section_title">Galerie Images</h2>
+        <div class="gallery">
+            <figure class="gallery__item gallery__item--1">
+                <img src="images/gumball.png" alt="Gallery image 1" class="gallery__img">
+            </figure>
+            <figure class="gallery__item gallery__item--2">
+                <img src="images/hand2.png" alt="Gallery image 2" class="gallery__img">
+            </figure>
+            <figure class="gallery__item gallery__item--3">
+                <img src="images/milk.png" alt="Gallery image 3" class="gallery__img">
+            </figure>
+            <figure class="gallery__item gallery__item--4">
+                <img src="images/sprinkles.png" alt="Gallery image 4" class="gallery__img">
+            </figure>
+
         </div>
-
     </section>
-
-    <section>
-        <h1 class="heading">Calculatrice</h1>
-
+    <section class="calculatrice" id="calculatrice">
+        <h2 class="section_title">Calculatrice</h2>
         <p id="output">0</p>
         <div class="first-row">
             <button id="r1-1">C</button>
@@ -82,8 +74,12 @@
             <button id="r5-2">.</button>
             <button id="r5-3">=</button>
         </div>
-
     </section>
+
+
+
+
+
     <script src="index.js"></script>
 </body>
 
