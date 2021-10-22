@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template Page</title>
+    <link rel="icon" type="image/png" href="favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="wrapper">
+        <a href="#" class="logo">Pratique JS</a>
+        <nav>
+            <ul>
+                <li><a href="#">home</a></li>
+                <li><a href="#">images</a></li>
+                <li><a href="#">calculatrice</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section class="row">
+        <h1 class="heading">Mes Images</h1>
+        <div class="carousel">
+            <div class="carousel-item carousel-item-visible">
+                <img src="images/gumball.png" alt="">
+            </div>
+            <div class="carousel-item">
+                <img src="images/hand2.png" alt="">   
+            </div>
+            <div class="carousel-item">
+                <img src="images/milk.png" alt=""> 
+            </div>
+            <div class="carousel-item">
+                <img src="images/sprinkles.png" alt=""> 
+            </div>
+    
+            <div class="carousel-actions">
+                <button id="carousel-button-prev" aria-label="Previous slide"> < </button>
+                <button id="carousel-button-next" aria-label="Next slide"> > </button>
+            </div>
+    
+        </div>
+
+    </section>
+
+    <section>
+        <h1 class="heading">Calculatrice</h1>
+
+        <p id="output">0</p>
+        <div class="first-row">
+            <button id="r1-1">C</button>
+            <button id="r1-3">%</button>
+            <button id="r1-4">/</button>
+        </div>
+        <div class="second-row">
+            <button id="r2-1">7</button>
+            <button id="r2-2">8</button>
+            <button id="r2-3">9</button>
+            <button id="r2-4">X</button>
+        </div>
+        <div class="third-row">
+            <button id="r3-1">4</button>
+            <button id="r3-2">5</button>
+            <button id="r3-3">6</button>
+            <button id="r3-4">-</button>
+        </div>
+        <div class="fourth-row">
+            <button id="r4-1">1</button>
+            <button id="r4-2">2</button>
+            <button id="r4-3">3</button>
+            <button id="r4-4">+</button>
+        </div>
+        <div class="fifth-row">
+            <button id="r5-1">0</button>
+            <button id="r5-2">.</button>
+            <button id="r5-3">=</button>
+        </div>
+
+    </section>
+    <script src="index.js"></script>
+</body>
+
+</html>
